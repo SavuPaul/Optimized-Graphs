@@ -1,0 +1,25 @@
+==9069== 8 bytes in 1 blocks are definitely lost in loss record 1 of 7
+==9069==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9069==    by 0x1092C6: newNode (in /home/student/SD-TEMA3/tema3)
+==9069==    by 0x1097EF: insertInHeap (in /home/student/SD-TEMA3/tema3)
+==9069==    by 0x10A8EC: dijkstra (in /home/student/SD-TEMA3/tema3)
+==9069==    by 0x10BF7B: main (in /home/student/SD-TEMA3/tema3)
+==9069== 
+==9069== 120 bytes in 1 blocks are definitely lost in loss record 3 of 7
+==9069==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9069==    by 0x109315: newQueue (in /home/student/SD-TEMA3/tema3)
+==9069==    by 0x10A4FA: dijkstra (in /home/student/SD-TEMA3/tema3)
+==9069==    by 0x10BF7B: main (in /home/student/SD-TEMA3/tema3)
+==9069== 
+==9069== 248 bytes in 31 blocks are definitely lost in loss record 4 of 7
+==9069==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9069==    by 0x1092C6: newNode (in /home/student/SD-TEMA3/tema3)
+==9069==    by 0x1097EF: insertInHeap (in /home/student/SD-TEMA3/tema3)
+==9069==    by 0x10AA8B: dijkstra (in /home/student/SD-TEMA3/tema3)
+==9069==    by 0x10BF7B: main (in /home/student/SD-TEMA3/tema3)
+==9069== 
+==9069== 344 (248 direct, 96 indirect) bytes in 1 blocks are definitely lost in loss record 5 of 7
+==9069==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9069==    by 0x1098BD: alloc_graph (in /home/student/SD-TEMA3/tema3)
+==9069==    by 0x10B7B4: main (in /home/student/SD-TEMA3/tema3)
+==9069== 
